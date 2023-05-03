@@ -9,6 +9,8 @@ A random password generator. Uses promts to identify what type of characters can
 
 ## Preview
 
+<img width="727" alt="image" src="https://user-images.githubusercontent.com/129807994/236073062-ca885fc3-1c75-4236-9927-d0464678d2b8.png">
+
 
 ## Installation
 
