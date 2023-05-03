@@ -6,6 +6,7 @@ let capital = ['A','B','C','D','E','F','G','H','I', 'J', 'K', 'L', 'M', 'N', 'O'
 let lowercase = ['a','b','c','d','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 let special = ['!','#','$','%','&','*','@','+','-','_','<','>'];
 let passwordOptions = [];
+let passwordComplete ="";
 //Function for password criteria prompt
 function generatePassword() {
   //Password Length
@@ -43,9 +44,9 @@ function generatePassword() {
 
 //Create random password from options above
 for(var i=0; i<=userLength; i++){
-let passwordCharacters = passwordOptions[Math.floor(Math.random()*passwordOptions.length)];
-console.log(passwordCharacters);
+passwordComplete += passwordOptions[Math.floor(Math.random()*passwordOptions.length)];
 }
+return passwordComplete;
 }
 
 
