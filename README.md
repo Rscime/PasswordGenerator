@@ -3,6 +3,10 @@
 
 This application was completed by Rachel Scime as part of the UCF Coding Bootcamp.
 
+## Application Link
+
+https://rscime.github.io/PasswordGenerator/
+
 ## Description
 
 A random password generator. Uses promts to identify what type of characters can be included in the password
